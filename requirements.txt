@@ -1,0 +1,19 @@
+pandas
+numpy
+ipykernel
+
+streamlit
+
+faiss-cpu
+
+openai
+langchain
+langchain-community
+langchain-core
+langchain-openai
+langgraph
+
+pydantic
+python-dotenv
+
+# openrouter

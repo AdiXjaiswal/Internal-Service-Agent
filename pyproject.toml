@@ -1,0 +1,27 @@
+[project]
+name = "internal-service-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Aditya Jaiswal", email = "ajnotyt989100@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "faiss-cpu>=1.15.1",
+    "ipykernel>=7.3.0",
+    "langchain>=1.4.1",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.6.3",
+    "langchain-openai>=1.6.2",
+    "langgraph>=1.2.11",
+    "numpy>=2.5.3",
+    "openai>=3.15.0",
+    "pandas>=3.0.6",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.3",
+    "streamlit>=1.64.0",
+]
+
+[tool.uv]
+package = false
